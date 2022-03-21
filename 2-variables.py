@@ -1,6 +1,5 @@
 
 import string
-from tokenize import String
 
 '''
 A variable (shown below) is something that stores data. Think of it like a basket that can hold fruit.
@@ -30,7 +29,7 @@ it is used to access a class with static variables/methods. We will learn about 
 '''
 
 a = 9 
-txt: String = "hahahahahahahahahahaha" # this is a group of characters, called a string. 
+txt = "hahahahahahahahahahaha" # this is a group of characters, called a string. 
 myChar = 'e' # this is a character
 isCodingGood = True # this is a boolean, it stores true/false values.
 myFloat: float = 4.555555555555555 
@@ -41,10 +40,6 @@ In python you don't need to specify the data type of a variable; you just need <
 This is great for beginners but not ideal for those who are more advanced. You can specify the type like this:
 
 <variablename>: <variabletype> = <variablevalue>
-
-You may need to import stuffs like string. Just add this to the top of your file:
-
-import string
 
 If you want to learn more advanced syntax, try learning C#. C++ and C have advanced syntax, but C does not have classes,
 only structs.
